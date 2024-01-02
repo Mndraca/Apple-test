@@ -7,7 +7,7 @@ body {
 }
 .box-a{
     width: 45%;
-    height:600px;
+    height:550px;
     padding:0%;
     margin:1%;
   }
@@ -69,10 +69,10 @@ body {
   }
  
   #con-a{
-    background-color: bisque;
+    background-color: whitesmoke;
   }
   #con-b{
-    background-color: grey;
+    background-color: antiquewhite;
   }
   #con-c{
     background-color: pink;
@@ -81,7 +81,7 @@ body {
     background-color: lightgrey;
   }
   
-  @media (max-width: 600px) {
+  @media (max-width: 734px) {
     .box-a{
         width: 100%;
         
@@ -91,21 +91,43 @@ body {
         flex-direction: column;
         
       }
-      html, body {
+      body {
         overflow-x:hidden;
+    
+        }
+        html{
+          overflow-x:hidden;
+        }
+         div#con-a.box-a{
+          margin: 0%;
+        }
+        div#con-b.box-a{
+          margin: 0%;
+        }
+        div#con-c.box-a{
+          margin: 0%;
+        }
+        div#con-d.box-a{
+          margin: 0%;
+        }
+        
       } 
-      div#con-a.box-a{
-        margin: 0%;
-      }
-      div#con-b.box-a{
-        margin: 0%;
-      }
-      div#con-c.box-a{
-        margin: 0%;
-      }
-      div#con-d.box-a{
-        margin: 0%;
-      }
-  }
+      @media only screen and (max-width: 920px) and (min-width: 735px){
+        .box-a{
+            width: 100%;
+            height: 450px;
+            
+        }
+        .container {
+          display: flex;
+    flex-direction: row;
+    justify-content: center;
+          
+        }
 
+      }
+
+      
+      
+      
 
