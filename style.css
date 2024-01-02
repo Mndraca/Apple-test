@@ -67,18 +67,28 @@ body {
     font-size: 30px;
     font-weight: 600;
   }
+  #white{
+    color: white;
+  }
  
   #con-a{
-    background-color: whitesmoke;
+    background-color: white;
   }
   #con-b{
-    background-color: antiquewhite;
+    background-color: white;
   }
   #con-c{
-    background-color: pink;
+    background-color: white;
   }
   #con-d{
-    background-color: lightgrey;
+    background-color: black;
+  }
+  .img{
+    width: 40%;
+   padding-left: 30%;
+   padding-top: 3%;
+   
+   
   }
   
   @media (max-width: 734px) {
@@ -98,6 +108,11 @@ body {
         html{
           overflow-x:hidden;
         }
+        .img{
+          padding-left: 30%;
+          padding-top: 15%;
+          
+         }
          div#con-a.box-a{
           margin: 0%;
         }
@@ -113,9 +128,17 @@ body {
         
       } 
       @media only screen and (max-width: 920px) and (min-width: 735px){
+        .img{
+          width: 30%;
+          padding-left: 35%;
+          padding-top: 3%;
+          
+         }
+        
+         
         .box-a{
             width: 100%;
-            height: 450px;
+            height: 500px;
             
         }
         .container {
