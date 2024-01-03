@@ -270,7 +270,7 @@ body {
       @media only screen and (max-width: 719px) and (min-width: 629px){
         .box-a{
           width: 100%;
-          height: 700px;
+          height: 680px;
           
       }
       .container {
@@ -281,11 +281,18 @@ body {
       }
       img#apple-watch.img{
 
-        padding-top: 5%;
+        padding-top: 8%;
         width: 100%;
       }
+        img#ipods.img{
+          padding-top: 10%;
+        }
         
-        
+        img#ipad.img{
+
+          padding-top: 10%;
+         
+        }
 
       }
 
