@@ -11,6 +11,7 @@ body {
     height:550px;
     padding:0%;
     margin: 0.5%;
+   
   }
   
   .container {
@@ -116,7 +117,7 @@ body {
   #apple-watch{
     width: 100%;
     padding-left: 0%;
-    position: relative;
+   
   }
   #ipad{
     width:40%;
@@ -133,8 +134,42 @@ body {
   @media (max-width: 735px) {
     .box-a{
         width: 100%;
-     
+        border-bottom: 10px solid white;
         
+    }
+  
+
+    .link {
+      font-size: 16px;
+    }
+
+    h1.watch {
+      font-size: 25px;
+      font-weight: 550;
+    }
+
+    img#apple-watch.img{
+      width: 550px;
+      height: 280px;
+      right: 85px;
+      position: relative;
+      
+      
+    }
+
+    p{
+      font-size: 18px;
+    }
+    h2{
+      font-size: 10px;
+      font-weight: 500;
+      padding-top: 0%;
+    }
+    h1{
+      font-size: 30px;
+    }
+    div#con-a.box-a{
+    bottom: 10%;
     }
     .img{
       width: 50%;
@@ -171,9 +206,10 @@ body {
         div#con-d.box-a{
           margin: 0%;
         }
+      }
 
         
-      } 
+      
       @media only screen and (max-width: 920px) and (min-width: 735px){
         .img{
           width: 20%;
