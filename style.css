@@ -156,6 +156,23 @@ body {
       
       
     }
+    #macbook{
+      padding-left: 15%;
+      padding-top: 14%;
+    }
+    #ipad{
+      width:73%;
+      padding-top: 5%;
+      padding-left: 13%;
+    }
+    img#ipods.img{
+      width: 80%;
+      margin-top: 5%;
+      margin-left: 10%;
+      padding-left: 0%;
+      
+      
+    }
 
     p{
       font-size: 18px;
