@@ -3,11 +3,11 @@ body {
     width: 100%;
     margin-left: 0%;
     margin-right: 0%;
-    background-color: whitesmoke;
+    background-color: white;
     
 }
 .box-a{
-    width: 45%;
+    width: 48.5%;
     height:550px;
     padding:0%;
     margin: 0.5%;
@@ -29,16 +29,16 @@ body {
     padding-bottom: 0%;
     margin-bottom: 0%;
     margin-top: 0%;
-    font-size: 20px;
+    font-size: 21px;
     color: black;
-    font-weight: 200;
+    font-weight: 350;
   
   }
   h1, h2, p{
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     text-align: center;
-    font-weight: 400;
+    
   }
   h1.watch{
     font-size: 28px;
@@ -49,40 +49,45 @@ body {
     
     font-size: 14px;
     color: orangered;
+    font-weight: 400;
 
 
   }
   h1{
     color: black;
-    margin-top: 10%;
+    margin-top: 8%;
     margin-bottom: 1%;
     font-size: 35px;
     font-weight: 500;
 
   }
-  i.fa-brands.fa-apple::before {
-    bottom: 5%;
-  }
+  
+  
   a:link { 
     text-decoration: none; 
   } 
   .link{
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 17px;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 400;
-    color: #0066CC;
+    font-weight: 350;
+    color: #06c;
     text-align: center;
     padding: 2%;
 
   }
   a#color{
-    color: #0066CC;
+    color: #06c;
     padding-right: 5%;
   }
   a{
-    color: #0066CC;
+    color: #06c;
     
+  }
+  #ipods{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
   }
   
   #white{
@@ -91,31 +96,38 @@ body {
   }
  
   #con-a{
-    background-color: white;
+    background-color: #fbfbfd;
   }
   #con-b{
-    background-color: white;
+    background-color: #fbfbfd;
   }
   #con-c{
-    background-color: white;
+    background-color: #fbfbfd
   }
   #con-d{
     background-color: black;
   }
-  .img{
+  img.img{
     width: 45%;
-   padding-left: 28%;
-   padding-top: 5%;
    
+  
    
   }
   #apple-watch{
-    width: 35%;
-    padding-left: 33%;
+    width: 100%;
+    padding-left: 0%;
+    position: relative;
   }
   #ipad{
     width:40%;
-    padding-left: 35%;
+    padding-top: 3%;
+    padding-left: 32%;
+  }
+  #macbook{
+    width: 67%;
+    padding-left: 17%;
+    padding-right: 5%;
+    padding-top: 7%;
   }
   
   @media (max-width: 735px) {
