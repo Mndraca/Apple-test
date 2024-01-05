@@ -135,7 +135,7 @@ body {
     .box-a{
         width: 100%;
         border-bottom: 10px solid white;
-        height: 455px;
+        height: 460px;
        
         
     }
@@ -153,19 +153,21 @@ body {
     img#apple-watch.img{
       width: 100%;
        
-      padding-top: 6%;
+      padding-top: 7%;
+    
       
      
       
       
     }
     img#ipad.img{
-      width: 60%;
-      padding-top: 5%;
-      padding-right: 8%;
+      width: 63%;
+      padding-top: 2%;
+      padding-right: 5%;
+      padding-left: 15%;
     }
     #macbook{
-      padding-left: 15%;
+      padding-left: 16%;
       padding-top: 14%;
     }
     #ipad{
@@ -175,7 +177,7 @@ body {
     }
     img#ipods.img{
       width: 80%;
-      margin-top: 5%;
+      margin-top: 3%;
       margin-left: 10%;
       padding-left: 0%;
       
@@ -257,7 +259,7 @@ body {
       @media only screen and (max-width: 630px) and (min-width: 431px){
         .box-a{
           width: 100%;
-          height: 530px;
+          height: 550px;
           
       }
       .container {
@@ -271,8 +273,16 @@ body {
         padding-top: 5%;
         width: 100%;
       }
+
+      img#ipods.img{
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 10%;
+        padding-left: 0%;
         
         
+      }
+    
 
       }
       @media only screen and (max-width: 719px) and (min-width: 629px){
