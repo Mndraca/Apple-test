@@ -31,14 +31,18 @@ body {
     margin-bottom: 0%;
     margin-top: 0%;
     font-size: 21px;
-    color: black;
-    font-weight: 350;
+    color: #1d1d1f;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+   
   
   }
   h1, h2, p{
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: normal;
     text-align: center;
+    line-height: 1.47059;
     
   }
   h1.watch{
@@ -68,21 +72,21 @@ body {
     text-decoration: none; 
   } 
   .link{
-    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 18px;
+    font-family: -apple-system-tall-body, BlinkMacSystemFont, sans-serif;
+    font-size: 17px;
     font-style: normal;
-    font-weight: 350;
-    color: #06c;
     text-align: center;
     padding: 2%;
-
+    font-weight: normal;
+    letter-spacing: inherit;
+   
   }
   a#color{
-    color: #06c;
+    color:#0066CC;
     padding-right: 5%;
   }
   a{
-    color: #06c;
+    color:#0066CC;
     
   }
   #ipods{
@@ -130,8 +134,8 @@ body {
   @media (max-width: 400px) and (min-width: 320px) {
     .box-a{
         width: 100%;
-        border-bottom: 10px solid white;
-        height: 420px;
+        border-bottom: 15px solid white;
+        height: 500px;
        
         
     }
@@ -147,9 +151,10 @@ body {
     }
 
     img#apple-watch.img{
-      width: 100%;
-       
-      padding-top: 7%;
+      width: 570px;
+       right: 25%;
+      padding-top: 5%;
+      position: relative;
     
       
      
@@ -252,6 +257,14 @@ body {
           padding-right: 5%;
           padding-left: 25%;
         }
+        img#apple-watch.img{
+
+          width: 570px;
+          right: 25%;
+         padding-top: 5%;
+         position: relative;
+        }
+
       }
       @media only screen and (max-width: 630px) and (min-width: 521px){
         .box-a{
@@ -267,8 +280,9 @@ body {
       }
       img#apple-watch.img{
 
-        padding-top: 5%;
         width: 100%;
+        right: 20%;
+        
       }
 
       img#ipods.img{
@@ -296,8 +310,8 @@ body {
       }
       img#apple-watch.img{
 
-        padding-top: 8%;
         width: 100%;
+        
       }
         img#ipods.img{
           padding-top: 10%;
@@ -330,8 +344,10 @@ body {
         }
         img#apple-watch.img{
 
-          padding-top: 5%;
           width: 100%;
+          
+          position: relative;
+        
         }
 
       }
