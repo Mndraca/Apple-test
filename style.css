@@ -11,6 +11,7 @@ body {
     height:600px;
     padding:0%;
     margin: 0.5%;
+    align-items: center;
    
   }
   
@@ -132,10 +133,12 @@ body {
   }
   
   @media (max-width: 400px) and (min-width: 320px) {
+    
     .box-a{
         width: 100%;
         border-bottom: 15px solid white;
         height: 500px;
+        justify-content: center;
        
         
     }
@@ -151,10 +154,9 @@ body {
     }
 
     img#apple-watch.img{
-      width: 570px;
-       right: 25%;
+      width: 565px;
       padding-top: 5%;
-      position: relative;
+      
     
       
      
@@ -233,36 +235,41 @@ body {
             width: 100%;
             border-bottom: 10px solid white;
             height: 430px;
+            justify-content: center;
            
             
         }
         img#ipad.img{
           width: 55%;
           padding-top: 3%;
-          padding-right: 5%;
           padding-left: 15%;
         }
+        img#apple-watch.img{
+          width: 300px;
+          padding-top: 5%;
+          
       }
+    }
       @media (max-width: 520px) and (min-width: 431px) {
         .box-a{
             width: 100%;
             border-bottom: 10px solid white;
             height: 480px;
+            justify-content: center;
            
             
         }
         img#ipad.img{
           width: 47%;
           padding-top: 3%;
-          padding-right: 5%;
           padding-left: 25%;
         }
         img#apple-watch.img{
 
-          width: 570px;
-          right: 25%;
+          width: 540px;
          padding-top: 5%;
-         position: relative;
+         
+         
         }
 
       }
@@ -270,6 +277,7 @@ body {
         .box-a{
           width: 100%;
           height: 550px;
+          justify-content: center;
           
       }
       .container {
@@ -281,7 +289,7 @@ body {
       img#apple-watch.img{
 
         width: 100%;
-        right: 20%;
+        
         
       }
 
@@ -300,6 +308,7 @@ body {
         .box-a{
           width: 100%;
           height: 680px;
+          justify-content: center;
           
       }
       .container {
@@ -334,6 +343,7 @@ body {
         .box-a{
             width: 100%;
             height: 700px;
+            justify-content: center;
             
         }
         .container {
@@ -346,7 +356,7 @@ body {
 
           width: 100%;
           
-          position: relative;
+          
         
         }
 
@@ -357,6 +367,7 @@ body {
           height:520px;
           padding:0%;
           margin: 0.5%;
+          justify-content: center;
          
         }
         img#ipad.img{
@@ -374,6 +385,7 @@ body {
           height:600px;
           padding:0%;
           margin: 0.5%;
+          justify-content: center;
          
         }
         img#ipad.img{
