@@ -23,10 +23,7 @@ body {
   }
  
   
-  .link{
-    text-decoration: none;
-
-  }
+  
    p {
     padding-bottom: 0%;
     margin-bottom: 0%;
@@ -53,16 +50,20 @@ body {
 
   h2{
     
-    font-size: 14px;
+    font-size: 13px;
     color: orangered;
     font-weight: 400;
+    letter-spacing: 2px;
+    padding-top: 0;
+    margin-top: 0;
+    margin-left: 4%;
 
 
   }
   h1{
     color: black;
     margin-top: 8%;
-    margin-bottom: 1%;
+    margin-bottom: 0;
     font-size: 37px;
     font-weight: 500;
 
@@ -73,6 +74,7 @@ body {
     text-decoration: none; 
   } 
   .link{
+    text-decoration: none;
     font-family: -apple-system-tall-body, BlinkMacSystemFont, sans-serif;
     font-size: 17px;
     font-style: normal;
@@ -154,6 +156,7 @@ body {
     h1.watch {
       font-size: 25px;
       font-weight: 550;
+      margin-bottom: 0%;
     }
 
     #apple-watch{
@@ -161,13 +164,16 @@ body {
         object-fit: cover;
         height: 270px;
     }
-  
-    
-      
-     
-      
-      
-    
+    h2{
+      margin-top: 0;
+      padding-top: 0;
+      font-size: 11px;
+      margin-left: 5%;
+      letter-spacing: 1px;
+      font-weight: 100;
+
+    }
+
     img#ipad.img{
       width: 60%;
       padding-top: 3%;
@@ -193,13 +199,11 @@ body {
       font-size: 18px;
     }
     h2{
-      font-size: 10px;
+      
       font-weight: 500;
-      padding-top: 0%;
+     
     }
-    h1{
-      font-size: 30px;
-    }
+   
     div#con-a.box-a{
     bottom: 10%;
     }
